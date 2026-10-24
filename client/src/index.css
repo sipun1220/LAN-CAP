@@ -1,0 +1,3 @@
+/* Theme lives in App.css; keep only a neutral reset here. */
+html, body, #root { min-height: 100%; }
+body { margin: 0; }

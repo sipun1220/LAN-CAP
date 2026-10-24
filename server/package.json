@@ -1,0 +1,20 @@
+{
+  "name": "lan-cap-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LAN-CAP API — LAN discovery, inventory, and security checks.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  }
+}

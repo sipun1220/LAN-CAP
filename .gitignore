@@ -1,0 +1,20 @@
+# Node
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+.vite/
+
+# Server runtime data (notes + history are local-only)
+server/data/*.json
+!server/data/.gitkeep
+server/data/*.sqlite
+server/data/*.sqlite-wal
+server/data/*.sqlite-shm
+server/.env
+.env
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
